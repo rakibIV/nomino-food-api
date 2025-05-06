@@ -116,6 +116,7 @@ cloudinary.config(
     api_secret = config('api_secret'), 
     secure=True
 )
+CLOUDINARY_URL = config("CLOUDINARY_URL")
 
 
 
