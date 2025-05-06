@@ -28,11 +28,11 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="PhiMart - E-commerce API",
+      title="Nomino - E-commerce API",
       default_version='v1',
-      description="API documentation for PhiMart E-commerce project",
+      description="API documentation for Nomino E-commerce project",
       terms_of_service="https://www.google.com/policies/terms/",
-      contact=openapi.Contact(email="contact@phimart.com"),
+      contact=openapi.Contact(email="contact@nomino.com"),
       license=openapi.License(name="BSD License"),
    ),
    public=True,
