@@ -12,7 +12,8 @@ class OrderServices:
             cart = Cart.objects.get(id=cart_id)
             cart_items = CartItem.objects.select_related('food_item').filter(cart=cart)
             total_price = sum([item.food_item.price*item.quantity for item in cart_items])
-            address = getattr(user, 'address', "User don't have any address yet!")
+            address = user.address if hasattr(user, 'address') and user.address else "User doesn't have any address yet!"
+            print(f"User: {user}, Address: {address}")
             order = Order.objects.create(user=user, total_price=total_price, address=address)
             
             order_items = [
