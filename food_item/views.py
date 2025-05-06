@@ -22,7 +22,7 @@ class FoodItemViewSet(ModelViewSet):
     
     filter_backends = [DjangoFilterBackend, SearchFilter]
     serializer_class = FoodItemSerializer
-    queryset = FoodItem.objects.select_related('category').all()
+    queryset = FoodItem.objects.select_related('category').all().order_by('id')
     filterset_class = MenuFilter
     pagination_class = DefaultPagination
     search_fields = ['name']
