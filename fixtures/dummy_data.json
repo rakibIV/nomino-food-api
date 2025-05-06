@@ -1,0 +1,811 @@
+[
+    {
+      "model": "food_item.category",
+      "pk": 1,
+      "fields": {
+        "name": "Appetizers",
+        "details": "Small dishes served before the main course to stimulate the appetite.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 2,
+      "fields": {
+        "name": "Soups",
+        "details": "Hot liquid food made by boiling ingredients such as meat, vegetables, or fish in stock or water.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 3,
+      "fields": {
+        "name": "Salads",
+        "details": "Cold dishes of raw or cooked vegetables, typically seasoned with oil, vinegar, or other dressing.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 4,
+      "fields": {
+        "name": "Main Courses",
+        "details": "The primary dish in a meal consisting of several courses.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 5,
+      "fields": {
+        "name": "Seafood",
+        "details": "Edible aquatic animals, excluding mammals, including fish, mollusks, and crustaceans.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 6,
+      "fields": {
+        "name": "Vegetarian",
+        "details": "Dishes that do not contain meat, fish, or poultry.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 7,
+      "fields": {
+        "name": "Vegan",
+        "details": "Dishes that do not contain any animal products or by-products.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 8,
+      "fields": {
+        "name": "Pasta",
+        "details": "Italian dishes made with dough of flour, eggs, and water, formed into various shapes and typically cooked in boiling water.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 9,
+      "fields": {
+        "name": "Pizza",
+        "details": "Italian dish consisting of a flat round base of dough baked with toppings.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 10,
+      "fields": {
+        "name": "Desserts",
+        "details": "Sweet food eaten at the end of a meal.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 11,
+      "fields": {
+        "name": "Beverages",
+        "details": "Any type of drink other than water.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 12,
+      "fields": {
+        "name": "Asian Cuisine",
+        "details": "Food from countries such as China, Japan, Korea, Vietnam, and Thailand.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 13,
+      "fields": {
+        "name": "Mediterranean",
+        "details": "Food from countries bordering the Mediterranean Sea, particularly Greece, Italy, and Spain.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 14,
+      "fields": {
+        "name": "American",
+        "details": "Traditional and contemporary food from the United States.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.category",
+      "pk": 15,
+      "fields": {
+        "name": "Breakfast",
+        "details": "Food items typically eaten in the morning as the first meal of the day.",
+        "created_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 1,
+      "fields": {
+        "name": "Bruschetta",
+        "category": 1,
+        "description": "Grilled bread rubbed with garlic and topped with diced tomatoes, fresh basil, and olive oil.",
+        "price": "8.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 2,
+      "fields": {
+        "name": "Mozzarella Sticks",
+        "category": 1,
+        "description": "Breaded and deep-fried mozzarella cheese, served with marinara sauce.",
+        "price": "7.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 3,
+      "fields": {
+        "name": "Spinach Artichoke Dip",
+        "category": 1,
+        "description": "Creamy dip filled with spinach, artichoke hearts, and melted cheese, served with tortilla chips.",
+        "price": "9.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 4,
+      "fields": {
+        "name": "Loaded Potato Skins",
+        "category": 1,
+        "description": "Crispy potato halves topped with cheddar cheese, bacon bits, and green onions, served with sour cream.",
+        "price": "8.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 5,
+      "fields": {
+        "name": "Calamari",
+        "category": 1,
+        "description": "Lightly breaded and fried squid rings, served with lemon and marinara sauce.",
+        "price": "11.99",
+        "image": "",
+        "is_special": true,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 6,
+      "fields": {
+        "name": "Tomato Basil Soup",
+        "category": 2,
+        "description": "Rich tomato soup with fresh basil, garlic, and a touch of cream.",
+        "price": "6.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 7,
+      "fields": {
+        "name": "Chicken Noodle Soup",
+        "category": 2,
+        "description": "Classic soup with chicken, vegetables, and egg noodles in a savory broth.",
+        "price": "7.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 8,
+      "fields": {
+        "name": "French Onion Soup",
+        "category": 2,
+        "description": "Caramelized onion soup topped with a crouton and melted Gruyère cheese.",
+        "price": "8.99",
+        "image": "",
+        "is_special": true,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 9,
+      "fields": {
+        "name": "Clam Chowder",
+        "category": 2,
+        "description": "Creamy soup with clams, potatoes, onions, and celery.",
+        "price": "9.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 10,
+      "fields": {
+        "name": "Lentil Soup",
+        "category": 2,
+        "description": "Hearty vegetarian soup with lentils, carrots, celery, and tomatoes.",
+        "price": "6.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 11,
+      "fields": {
+        "name": "Caesar Salad",
+        "category": 3,
+        "description": "Romaine lettuce tossed with Caesar dressing, Parmesan cheese, and croutons.",
+        "price": "9.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 12,
+      "fields": {
+        "name": "Greek Salad",
+        "category": 3,
+        "description": "Mixed greens with tomatoes, cucumbers, red onions, Kalamata olives, and feta cheese, dressed with olive oil and oregano.",
+        "price": "10.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 13,
+      "fields": {
+        "name": "Caprese Salad",
+        "category": 3,
+        "description": "Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze and olive oil.",
+        "price": "11.99",
+        "image": "",
+        "is_special": true,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 14,
+      "fields": {
+        "name": "Cobb Salad",
+        "category": 3,
+        "description": "Mixed greens topped with grilled chicken, bacon, avocado, blue cheese, tomatoes, and hard-boiled eggs.",
+        "price": "12.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 15,
+      "fields": {
+        "name": "Spinach Salad",
+        "category": 3,
+        "description": "Fresh spinach with sliced mushrooms, red onion, bacon, and a warm bacon dressing.",
+        "price": "10.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 16,
+      "fields": {
+        "name": "Grilled Ribeye Steak",
+        "category": 4,
+        "description": "12oz ribeye steak grilled to perfection, served with mashed potatoes and seasonal vegetables.",
+        "price": "29.99",
+        "image": "",
+        "is_special": true,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 17,
+      "fields": {
+        "name": "Chicken Parmesan",
+        "category": 4,
+        "description": "Breaded chicken breast topped with marinara sauce and melted mozzarella, served with spaghetti.",
+        "price": "18.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 18,
+      "fields": {
+        "name": "Beef Stroganoff",
+        "category": 4,
+        "description": "Tender beef strips in a creamy mushroom sauce, served over egg noodles.",
+        "price": "19.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 19,
+      "fields": {
+        "name": "Roast Turkey Dinner",
+        "category": 4,
+        "description": "Roasted turkey breast with stuffing, gravy, cranberry sauce, and mashed potatoes.",
+        "price": "17.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 20,
+      "fields": {
+        "name": "BBQ Ribs",
+        "category": 4,
+        "description": "Slow-cooked pork ribs brushed with house BBQ sauce, served with coleslaw and fries.",
+        "price": "22.99",
+        "image": "",
+        "is_special": true,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 21,
+      "fields": {
+        "name": "Grilled Salmon",
+        "category": 5,
+        "description": "Fresh Atlantic salmon fillet grilled and topped with lemon butter sauce, served with rice and asparagus.",
+        "price": "23.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 22,
+      "fields": {
+        "name": "Shrimp Scampi",
+        "category": 5,
+        "description": "Large shrimp sautéed in garlic butter and white wine, served over linguine.",
+        "price": "21.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 23,
+      "fields": {
+        "name": "Fish and Chips",
+        "category": 5,
+        "description": "Beer-battered cod served with tartar sauce, lemon wedges, and French fries.",
+        "price": "16.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 24,
+      "fields": {
+        "name": "Lobster Tail",
+        "category": 5,
+        "description": "Broiled Maine lobster tail served with drawn butter, roasted potatoes, and seasonal vegetables.",
+        "price": "34.99",
+        "image": "",
+        "is_special": true,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 25,
+      "fields": {
+        "name": "Crab Cakes",
+        "category": 5,
+        "description": "Pan-seared lump crab cakes with remoulade sauce, served with rice pilaf and coleslaw.",
+        "price": "24.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 26,
+      "fields": {
+        "name": "Vegetable Stir Fry",
+        "category": 6,
+        "description": "Mixed vegetables sautéed in a flavorful sauce, served over steamed rice.",
+        "price": "14.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 27,
+      "fields": {
+        "name": "Eggplant Parmesan",
+        "category": 6,
+        "description": "Breaded eggplant topped with marinara sauce and melted mozzarella, served with spaghetti.",
+        "price": "16.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 28,
+      "fields": {
+        "name": "Vegetable Lasagna",
+        "category": 6,
+        "description": "Layered pasta with ricotta cheese, spinach, zucchini, and tomato sauce.",
+        "price": "17.99",
+        "image": "",
+        "is_special": true,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 29,
+      "fields": {
+        "name": "Stuffed Bell Peppers",
+        "category": 6,
+        "description": "Bell peppers filled with rice, cheese, and vegetables, baked in tomato sauce.",
+        "price": "15.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 30,
+      "fields": {
+        "name": "Mushroom Risotto",
+        "category": 6,
+        "description": "Creamy Italian rice dish with mushrooms, white wine, and Parmesan cheese.",
+        "price": "16.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 31,
+      "fields": {
+        "name": "Vegan Buddha Bowl",
+        "category": 7,
+        "description": "Quinoa, roasted vegetables, avocado, and chickpeas with tahini dressing.",
+        "price": "14.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 32,
+      "fields": {
+        "name": "Vegan Coconut Curry",
+        "category": 7,
+        "description": "Mixed vegetables in a spicy coconut curry sauce, served with rice.",
+        "price": "15.99",
+        "image": "",
+        "is_special": true,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 33,
+      "fields": {
+        "name": "Lentil Shepherd's Pie",
+        "category": 7,
+        "description": "Lentil and vegetable filling topped with mashed potatoes.",
+        "price": "16.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 34,
+      "fields": {
+        "name": "Vegan Pad Thai",
+        "category": 7,
+        "description": "Rice noodles with tofu, bean sprouts, peanuts, and vegetables in tamarind sauce.",
+        "price": "16.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 35,
+      "fields": {
+        "name": "Jackfruit Tacos",
+        "category": 7,
+        "description": "Seasoned jackfruit with avocado, salsa, and vegan sour cream in corn tortillas.",
+        "price": "14.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 36,
+      "fields": {
+        "name": "Spaghetti Bolognese",
+        "category": 8,
+        "description": "Spaghetti with rich meat sauce, topped with Parmesan cheese.",
+        "price": "15.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 37,
+      "fields": {
+        "name": "Fettuccine Alfredo",
+        "category": 8,
+        "description": "Fettuccine pasta in a creamy Parmesan sauce.",
+        "price": "16.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 38,
+      "fields": {
+        "name": "Lobster Ravioli",
+        "category": 8,
+        "description": "Ravioli filled with lobster meat, served in a cream sauce with a touch of tomato.",
+        "price": "23.99",
+        "image": "",
+        "is_special": true,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 39,
+      "fields": {
+        "name": "Penne Arrabbiata",
+        "category": 8,
+        "description": "Penne pasta with spicy tomato sauce and garlic.",
+        "price": "14.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 40,
+      "fields": {
+        "name": "Linguine with Clams",
+        "category": 8,
+        "description": "Linguine pasta with fresh clams in a white wine and garlic sauce.",
+        "price": "19.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 41,
+      "fields": {
+        "name": "Margherita Pizza",
+        "category": 9,
+        "description": "Classic pizza with tomato sauce, fresh mozzarella, and basil.",
+        "price": "13.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 42,
+      "fields": {
+        "name": "Pepperoni Pizza",
+        "category": 9,
+        "description": "Pizza topped with tomato sauce, mozzarella cheese, and pepperoni slices.",
+        "price": "14.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 43,
+      "fields": {
+        "name": "Supreme Pizza",
+        "category": 9,
+        "description": "Pizza loaded with pepperoni, sausage, bell peppers, onions, olives, and mushrooms.",
+        "price": "17.99",
+        "image": "",
+        "is_special": true,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 44,
+      "fields": {
+        "name": "BBQ Chicken Pizza",
+        "category": 9,
+        "description": "Pizza with BBQ sauce, grilled chicken, red onions, and cilantro.",
+        "price": "16.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 45,
+      "fields": {
+        "name": "Vegetarian Pizza",
+        "category": 9,
+        "description": "Pizza topped with tomato sauce, mozzarella, and a variety of fresh vegetables.",
+        "price": "15.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 46,
+      "fields": {
+        "name": "Chocolate Lava Cake",
+        "category": 10,
+        "description": "Warm chocolate cake with a molten chocolate center, served with vanilla ice cream.",
+        "price": "8.99",
+        "image": "",
+        "is_special": true,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 47,
+      "fields": {
+        "name": "New York Cheesecake",
+        "category": 10,
+        "description": "Classic creamy cheesecake with graham cracker crust, topped with strawberry sauce.",
+        "price": "7.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+    },
+    {
+      "model": "food_item.fooditem",
+      "pk": 48,
+      "fields": {
+        "name": "Apple Pie",
+        "category": 10,
+        "description": "Traditional apple pie with a flaky crust, served warm with vanilla ice cream.",
+        "price": "6.99",
+        "image": "",
+        "is_special": false,
+        "created_at": "2025-01-15",
+        "updated_at": "2025-01-15"
+      }
+
+    }
+
+]
